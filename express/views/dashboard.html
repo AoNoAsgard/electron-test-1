@@ -1,0 +1,10 @@
+{% extends 'layout.html' %} {% block title %} Pagina Iniziale :D{% endblock %} {% block head %} {% parent %} {% endblock %} {% block body %} {%if totmess%}
+<P>
+    l'utente selezionato è
+    <p style="color:red">
+        {{totmess.username}}
+    </p>
+</P>
+{%else%}
+<p>Non è stato trovato</p>
+{%endif%} {% endblock %}

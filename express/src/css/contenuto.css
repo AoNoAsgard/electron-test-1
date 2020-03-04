@@ -1,0 +1,10 @@
+#Contenuto {
+    height: 543px;
+    width: 866px;
+    margin-left: 32px;
+    padding-left: 3px;
+    padding-top: 2px;
+    background-color: rgb(90, 90, 90);
+    overflow: auto;
+    color: white;
+}

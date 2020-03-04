@@ -1,0 +1,58 @@
+#BottoniLaterali {
+    position: absolute;
+    background-color: #2D2D30;
+    width: 32px;
+    height: 543px;
+}
+
+#BottoniLaterali button {
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    border: none;
+    color: #F1F1F1;
+    font-size: 16px;
+}
+
+#BottoniLaterali button:hover {
+    background-color: #3F3F41;
+}
+
+#btnLaterale {
+    position: absolute;
+    color: "green"
+}
+
+#menuLaterale {
+    position: absolute;
+    left: 32px;
+    height: 543px;
+    width: 268px;
+    background-color: #2D2D30;
+    padding-top: 5px;
+}
+
+#menuLaterale button {
+    box-shadow: inset 0px 40px 0px -15px #2D2D30;
+    background-color: #3f3f42;
+    border-radius: 1px;
+    display: inline-block;
+    cursor: pointer;
+    color: #bdbdbd;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: none;
+    width: 100px;
+}
+
+#menuLaterale button:hover {
+    background-color: #3b3b3d;
+}
+
+#menuLaterale button:active {
+    position: relative;
+    top: 1px;
+}

@@ -1,0 +1,9 @@
+{% extends 'layout.html' %} {% block title %} Pagina Iniziale :D{% endblock %} {% block head %} {% parent %} {% endblock %} {% block body %}
+<p>Pagina Principale.</p>
+
+<form action="dashboard" method="post">
+    <input type="text" name="id">
+    <input type="submit">
+</form>
+
+<a href="chiudi">chiudi</a> {% endblock %}
